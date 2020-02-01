@@ -42,7 +42,5 @@ def handle_data():
     #return '{} {} {}'.format(productName, uploadFile, categoryType,description)
     #request.form['pname'] request.form['uploadedFile'],request.form['category'],request.form['descrip']
 
-
-
 if __name__ == "__main__":
     app.run()
