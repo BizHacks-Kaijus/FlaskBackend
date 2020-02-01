@@ -1,5 +1,6 @@
 from flask import Flask, render_template, flash, request
 from content_management import Content
+import awscompute as aws
 
 TOPIC_DICT  = Content()
 # the folder static is for the files for css, img, js files
