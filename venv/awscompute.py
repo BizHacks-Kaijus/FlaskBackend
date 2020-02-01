@@ -8,7 +8,7 @@ min_confidence = 90
 rekog = boto3.client('rekognition', region_name='us-east-1')
 
 # analyze(path-to-image, description-of-product)
-def analyze(img): 
+def analyze(img):
 	upload(img)
 	current_catagory = ""
 	current_conf = 0
